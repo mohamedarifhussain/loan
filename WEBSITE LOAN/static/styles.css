@@ -1,0 +1,138 @@
+
+		*{
+			text-decoration: none;
+		}
+
+    body {
+      background-image:url("finance.jpg") ;
+      /* background-color: rgb(221, 236, 136); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      }
+		.navbar{
+			background: rgb(23, 2, 15); font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+            cursor: pointer;
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+		button{
+			background-color: rgb(63, 47, 206); margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+
+
+       
+    .content{
+
+      
+      width: 1000px;
+      height: auto;
+      margin: auto;
+      color:rgb(255, 240, 77);
+
+   }
+   .content h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    padding-bottom: 0px;
+   }
+    
+   .content .par{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color:rgb(255, 255, 255)
+
+   }
+
+   .content  .cn{
+    text-align: center;
+    border: 0px;
+    background-size: cover;
+   }
+
+
+
+   .information body {
+
+    
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.information header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.information main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.information section {
+    margin-bottom: 20px;
+}
+
+.information h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #007bff;
+}
+
+.information button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.information button:hover {
+    background: #218838;
+}
+
+.information #result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+  
