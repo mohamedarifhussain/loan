@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction</title>
+    <link rel="stylesheet" href="/static/prediction.css"></link>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Loan Prediction</h1>
+    <form id="loan-form">
+        <div class="question">
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="1"> Male
+            <input type="radio" name="gender" value="0"> Female
+        </div>
+        <div class="question">
+            <label>Married:</label>
+            <input type="radio" name="married" value="1"> Yes
+            <input type="radio" name="married" value="0"> No
+        </div>
+        <div class="question">
+            <label>Dependents:</label>
+            <select name="dependents">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3+</option>
+            </select>
+        </div>
+        <div class="question">
+            <label>Education:</label>
+            <input type="radio" name="education" value="1"> Graduate
+            <input type="radio" name="education" value="0"> Not Graduate
+        </div>
+        <div class="question">
+            <label>Self-Employed:</label>
+            <input type="radio" name="self-employed" value="1"> Yes
+            <input type="radio" name="self-employed" value="0"> No
+        </div>
+        <div class="question">
+            <label>Applicant Income:</label>
+            <input type="number" name="applicant-income" required>
+        </div>
+        <div class="question">
+            <label>Coapplicant Income:</label>
+            <input type="number" name="coapplicant-income" required>
+        </div>
+        <div class="question">
+            <label>Loan Amount:</label>
+            <input type="number" name="loan-amount" required>
+        </div>
+        <div class="question">
+            <label>Loan Amount Term:</label>
+            <input type="number" name="loan-amount-term" required>
+        </div>
+        <div class="question">
+            <label>Credit History:</label>
+            <input type="radio" name="credit-history" value="1"> Good
+            <input type="radio" name="credit-history" value="0"> Bad
+        </div>
+        <div class="question">
+            <label>Property Area:</label>
+            <select name="property-area">
+                <option value="0">Rural</option>
+                <option value="1">Semi-urban</option>
+                <option value="2">Urban</option>
+            </select>
+        </div>
+        <button type="button" id="submit-btn">Submit</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    
+</body>
+</html>
